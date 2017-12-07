@@ -1,11 +1,13 @@
 for (var i=1; i <= 100; i++){
 	if( i % 3 == 0 )	{
-      if(i%9 !=0){
+      if(i%9 ==0 && i%3 ==0){
         document.write("Earth");
+        document.write('<br>');
+        document.write("Pluto");
         document.write('<br>');
       }
       else{
-	    document.write("Pluto");
+	    document.write("Earth");
      	document.write('<br>');
       }
     }
